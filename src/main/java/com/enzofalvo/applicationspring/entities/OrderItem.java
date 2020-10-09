@@ -2,6 +2,7 @@
 package com.enzofalvo.applicationspring.entities;
 
 import com.enzofalvo.applicationspring.entities.pk.OrderItemPK;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.io.Serializable;
 import java.util.Objects;
 import javax.persistence.EmbeddedId;
@@ -13,7 +14,7 @@ import javax.persistence.Table;
 public class OrderItem implements Serializable {
     
     @EmbeddedId
-    private OrderItemPK id;
+    private OrderItemPK id = new OrderItemPK();
     
     private Integer quantity;
     private Double price;
@@ -28,6 +29,7 @@ public class OrderItem implements Serializable {
         this.price = price;
     }
 
+    @JsonIgnore
     public Order getOrder() {
         return id.getOrder();
     }
