@@ -1,6 +1,6 @@
-
 package com.enzofalvo.applicationspring.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.io.Serializable;
 import java.time.Instant;
 import java.util.Objects;
@@ -15,12 +15,13 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "tb_payment")
 public class Payment implements Serializable {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Instant moment;
-    
+
+    @JsonIgnore
     @OneToOne
     @MapsId
     private Order order;
@@ -82,6 +83,5 @@ public class Payment implements Serializable {
         }
         return true;
     }
-    
-    
+
 }
