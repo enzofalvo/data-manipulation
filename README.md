@@ -5,7 +5,7 @@
 =================
 <!--ts-->
    * [About](#About)
-   * [Como usar](#como-usar)
+   * [How to use](#how-to-use)
       * [Prerequisites](#prerequisites)
    * [Tests](#testes)
    * [Technologies](#Technologies)
