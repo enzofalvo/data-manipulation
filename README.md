@@ -11,7 +11,7 @@
 <!--te-->
 
 ## 📖 About
-This application facilitates the manipulation of Back End data, and a CRUD (Create, Read, Update and Delete) can be performed with the system. We can also make inquiries on the website where the application is hosted through its endpoints.
+This application facilitates the manipulation of Back End data, and a CRUD (Create, Read, Update and Delete) can be performed with the system. We can also make inquiries on the website where the application is hosted through its endpoints. Application made with Jpa.
 
 ✅🚀 Completed Application ✅
 
