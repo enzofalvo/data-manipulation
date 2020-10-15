@@ -1,8 +1,7 @@
 #  Application to manipulate data and entities
-## 📃This application have the intention of easily manipulating data and entities.
+## 📃 This application have the intention of easily manipulating data and entities.
 
 ## Table of contents
-=================
 <!--ts-->
    * [About](#About)
    * [How to use](#how-to-use)
@@ -19,9 +18,11 @@ This application facilitates the manipulation of Back End data, and a CRUD (Crea
 
 ## ✅ Application demo screenshots:
 ![Screenshot](https://github.com/enzofalvo/maven-springboot/blob/master/screenshots/postman-sc.png)
+
 (Postman performing a "get" for the "/users" endpoint)
 
 ![Screenshot](https://github.com/enzofalvo/maven-springboot/blob/master/screenshots/site-sc.png)
+
 (Site where the application is hosted providing the endpoint "/users")
 
 
