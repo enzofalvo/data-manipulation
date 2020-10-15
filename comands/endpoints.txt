@@ -1,0 +1,13 @@
+You can use:
+
+"https://java-springboot-sb.herokuapp.com/users" to list users
+
+https://java-springboot-sb.herokuapp.com/categories to list categories
+
+https://java-springboot-sb.herokuapp.com/orders to list orders
+
+https://java-springboot-sb.herokuapp.com/products to list products
+
+
+You can also use a user's "/{id}" at the end of each endpoint to filter the results by id
+
